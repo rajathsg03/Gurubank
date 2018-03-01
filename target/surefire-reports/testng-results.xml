@@ -2,12 +2,12 @@
 <testng-results skipped="4" failed="0" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="com.gurubank.project.TestNGLogin" duration-ms="52628" started-at="2018-02-23T08:59:28Z" finished-at="2018-02-23T09:00:21Z">
+  <suite name="com.gurubank.project.TestNGLogin" duration-ms="68663" started-at="2018-03-01T05:26:18Z" finished-at="2018-03-01T05:27:27Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="52628" started-at="2018-02-23T08:59:28Z" finished-at="2018-02-23T09:00:21Z">
+    <test name="Command line test" duration-ms="68663" started-at="2018-03-01T05:26:18Z" finished-at="2018-03-01T05:27:27Z">
       <class name="com.gurubank.project.TestNGLogin">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:29:29Z" finished-at="2018-02-23T14:29:29Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:56:24Z" finished-at="2018-03-01T10:56:24Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Process unexpectedly closed with status: 0
@@ -25,7 +25,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - <no info>
    8:           0x420756 - <no info>
    9:           0x6b96e0 - <no info>
-  10:     0x7ff898a88364 - BaseThreadInitThunk]]>
+  10:     0x7ffafbde8364 - BaseThreadInitThunk]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
@@ -43,7 +43,7 @@ remote stacktrace: stack backtrace:
    7:           0x6bef19 - <no info>
    8:           0x420756 - <no info>
    9:           0x6b96e0 - <no info>
-  10:     0x7ff898a88364 - BaseThreadInitThunk
+  10:     0x7ffafbde8364 - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -111,7 +111,7 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="3" started-at="2018-02-23T14:30:21Z" data-provider="dp" finished-at="2018-02-23T14:30:21Z">
+        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="59" started-at="2018-03-01T10:57:27Z" data-provider="dp" finished-at="2018-03-01T10:57:27Z">
           <params>
             <param index="0">
               <value>
@@ -132,15 +132,11 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:30:21Z" finished-at="2018-02-23T14:30:21Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:57:27Z" finished-at="2018-03-01T10:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:30:21Z" finished-at="2018-02-23T14:30:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="1" started-at="2018-02-23T14:30:21Z" data-provider="dp" finished-at="2018-02-23T14:30:21Z">
+        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="0" started-at="2018-03-01T10:57:27Z" data-provider="dp" finished-at="2018-03-01T10:57:27Z">
           <params>
             <param index="0">
               <value>
@@ -161,40 +157,19 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:30:21Z" finished-at="2018-02-23T14:30:21Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:57:27Z" finished-at="2018-03-01T10:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:30:21Z" finished-at="2018-02-23T14:30:21Z">
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:57:27Z" finished-at="2018-03-01T10:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="0" started-at="2018-02-23T14:30:21Z" data-provider="dp" finished-at="2018-02-23T14:30:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr11864]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aberyha]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[User or Password is not valid]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:57:27Z" finished-at="2018-03-01T10:57:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:30:21Z" finished-at="2018-02-23T14:30:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="1" started-at="2018-02-23T14:30:21Z" data-provider="dp" finished-at="2018-02-23T14:30:21Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="0" started-at="2018-03-01T10:57:27Z" data-provider="dp" finished-at="2018-03-01T10:57:27Z">
           <params>
             <param index="0">
               <value>
@@ -215,11 +190,36 @@ remote stacktrace: stack backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:30:21Z" finished-at="2018-02-23T14:30:21Z">
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:57:27Z" finished-at="2018-03-01T10:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-02-23T14:30:21Z" finished-at="2018-02-23T14:30:21Z">
+        <test-method status="SKIP" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="Login" duration-ms="0" started-at="2018-03-01T10:57:27Z" data-provider="dp" finished-at="2018-03-01T10:57:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr11864]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aberyha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User or Password is not valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:57:27Z" finished-at="2018-03-01T10:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.gurubank.project.TestNGLogin@67b6d4ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-01T10:57:27Z" finished-at="2018-03-01T10:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
