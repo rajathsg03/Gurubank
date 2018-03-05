@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="1" name="com.gurubank.project.TestNGLogin" time="73.094" errors="0" skipped="11">
+<testsuite tests="12" failures="1" name="com.gurubank.project.TestNGLogin" time="19.015" errors="0" skipped="11">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Gurubank"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="com.gurubank"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -26,8 +26,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Gurubank"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Gurubank/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Gurubank/8/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_144"/>
@@ -38,7 +38,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="5"/>
+    <property name="BUILD_ID" value="8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -52,12 +52,13 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Gurubank/5/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Gurubank/8/display/redirect"/>
     <property name="POM_VERSION" value="1"/>
     <property name="TMP" value="C:\windows\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="830c4a6186b65092078e9255ed42ba12ea54e4ab"/>
     <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Gurubank/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -73,7 +74,7 @@
     <property name="POM_GROUPID" value="co.gurubank"/>
     <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Gurubank-5"/>
+    <property name="BUILD_TAG" value="jenkins-Gurubank-8"/>
     <property name="JENKINS_SERVER_COOKIE" value="a81d854fc3f7da9b"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -86,7 +87,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\apache-maven-3.5.2"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;D:\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar;D:\apache-maven-3.5.2/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.5.2 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.14.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 51524"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.5.2 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.14.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 64705"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_144/bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\app\gowdara\product\11.2.0\client_2\bin;C:\app\gowdara\product\11.2.0\client_1;c:\Oracle\product\11.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Scripts;C:\Python27\Tools;C:\Python27\Lib\site-packages;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_144\bin;D:\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -112,14 +113,14 @@
 "/>
     <property name="MAVEN_HOME" value="D:\apache-maven-3.5.2"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
+    <property name="BUILD_NUMBER" value="8"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PROCESSOR_REVISION" value="3c03"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="UATDATA" value="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\windows"/>
-    <property name="GIT_COMMIT" value="dcce41424f8395e93e76b49a2ae19493c6037641"/>
+    <property name="GIT_COMMIT" value="830c4a6186b65092078e9255ed42ba12ea54e4ab"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
@@ -128,40 +129,42 @@
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
-    <property name="GIT_URL" value="https://github.com/rajathsg03/Selenium.git"/>
+    <property name="GIT_URL" value="https://github.com/rajathsg03/Gurubank.git"/>
   </properties>
-  <testcase classname="com.gurubank.project.TestNGLogin" name="beforeTest" time="73.089">
-    <failure message="Process unexpectedly closed with status: 0
+  <testcase classname="com.gurubank.project.TestNGLogin" name="beforeTest" time="19.015">
+    <failure message="connection reset
 Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
 System info: host: &apos;BAGOWDARA&apos;, ip: &apos;10.50.52.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: driver.version: FirefoxDriver
 remote stacktrace: stack backtrace:
    0:           0x47e934 - &lt;no info&gt;
    1:           0x47f0a3 - &lt;no info&gt;
-   2:           0x442649 - &lt;no info&gt;
-   3:           0x449cc3 - &lt;no info&gt;
-   4:           0x42a890 - &lt;no info&gt;
-   5:           0x406f5e - &lt;no info&gt;
-   6:           0x40cfc9 - &lt;no info&gt;
-   7:           0x6bef19 - &lt;no info&gt;
-   8:           0x420756 - &lt;no info&gt;
-   9:           0x6b96e0 - &lt;no info&gt;
-  10:     0x7ffafbde8364 - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+   2:           0x476b0a - &lt;no info&gt;
+   3:           0x477440 - &lt;no info&gt;
+   4:           0x4490d8 - &lt;no info&gt;
+   5:           0x42a890 - &lt;no info&gt;
+   6:           0x406f5e - &lt;no info&gt;
+   7:           0x40cfc9 - &lt;no info&gt;
+   8:           0x6bef19 - &lt;no info&gt;
+   9:           0x420756 - &lt;no info&gt;
+  10:           0x6b96e0 - &lt;no info&gt;
+  11:     0x7ffdfd868364 - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: connection reset
 Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
 System info: host: &apos;BAGOWDARA&apos;, ip: &apos;10.50.52.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: driver.version: FirefoxDriver
 remote stacktrace: stack backtrace:
    0:           0x47e934 - &lt;no info&gt;
    1:           0x47f0a3 - &lt;no info&gt;
-   2:           0x442649 - &lt;no info&gt;
-   3:           0x449cc3 - &lt;no info&gt;
-   4:           0x42a890 - &lt;no info&gt;
-   5:           0x406f5e - &lt;no info&gt;
-   6:           0x40cfc9 - &lt;no info&gt;
-   7:           0x6bef19 - &lt;no info&gt;
-   8:           0x420756 - &lt;no info&gt;
-   9:           0x6b96e0 - &lt;no info&gt;
-  10:     0x7ffafbde8364 - BaseThreadInitThunk
+   2:           0x476b0a - &lt;no info&gt;
+   3:           0x477440 - &lt;no info&gt;
+   4:           0x4490d8 - &lt;no info&gt;
+   5:           0x42a890 - &lt;no info&gt;
+   6:           0x406f5e - &lt;no info&gt;
+   7:           0x40cfc9 - &lt;no info&gt;
+   8:           0x6bef19 - &lt;no info&gt;
+   9:           0x420756 - &lt;no info&gt;
+  10:           0x6b96e0 - &lt;no info&gt;
+  11:     0x7ffdfd868364 - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -204,70 +207,10 @@ mngr11864
 aberyh
 User or Password is not valid
 </system-out>
-    <system-err>1519881991871	geckodriver	INFO	geckodriver 0.19.1
-1519881991927	geckodriver	INFO	Listening on 127.0.0.1:11660
-1519881994086	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\windows\\TEMP\\rust_mozprofile.JwmY9PqvCmfx&quot;
-1519882014929	Marionette	INFO	Enabled via --marionette
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x150081,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x150081,name=PBrowser::Msg_LoadRemoteScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0040,name=PContent::Msg_LoadProcessScript) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00FE,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00FE,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
-
+    <system-err>1520233234450	geckodriver	INFO	geckodriver 0.19.1
+1520233234473	geckodriver	INFO	Listening on 127.0.0.1:41729
+1520233235212	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\windows\\TEMP\\rust_mozprofile.QuDeAGtJJ8xP&quot;
+1520233235912	Marionette	INFO	Enabled via --marionette
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
 
@@ -324,21 +267,6 @@ User or Password is not valid
 
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
 
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
@@ -365,64 +293,15 @@ User or Password is not valid
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x150084,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
 
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00FE,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00FE,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x2C00FEWARNING,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x150001:,name=PBrowser::Msg_AsyncMessage) Channel error: cannot se A blocker encountered an error while we were waiting.
-          Blocker:  SessionStore: flushing all winnd/recv
-
-dows
-          Phase: quit-application-granted
-          State: {&quot;total&quot;:-1,&quot;current&quot;:-1}
-WARNING: [Exception... &quot;Component returned failure co
-###!!! [Parent][MessageChannelde: 0x8000ff]ff (NS_ERRO Error: (R_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]&quot;  nsresult: &quot;0x8000ffffmsgtype=0x2C001F (NS_ERROR_UNEXPECTED)&quot;  location: &quot;JS frame :: resource:///modules/sessionstore/TabStateFlusher.jsm :: flush :: line 88&quot;  data: no]
-WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:88:5
-flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:111:23
-flushWin,name=PContent::Msg_PreferenceUpdatedow@resource:///modules/sessionstore/TabStateFlusher.jsm:34:12
-flushAllWi) Channel error: cannot send/recv
-
-ndowsAsync/&lt;@resource:///modules/sessionstore/SessionStore.jsm:1664:31
-ssi_forEachBrowserWindow@resource:///modules/sessionstore/SessionStore.jsm:4215:9
-flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:1663:5
-ssi_onQuitApplicationGranted/&lt;@resource:///modules/sessionstore/SessionStore.jsm:1612:25
-trigger@resource://gre/modules/AsyncShutdown.jsm:704:23
-_wait@resource://gre/modules/AsyncShutdown.jsm:851:7
-wait@resource://gre/modules/AsyncShutdown.jsm:835:28
-observe@resource://gre/modules/AsyncShutdown.jsm:518:17
-observe@resource:///modules/ContentCrashHandlers.jsm:162:11
-
-
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
-
-
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
-
-
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
-
-
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
-
-
-###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
-
+1520233241412	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... &quot;Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]&quot;  nsresult: &quot;0x80004005 (NS_ERROR_FAILURE)&quot;  location: &quot;JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125&quot;  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 &lt; onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 &lt; _middleware/&lt;/&lt;()@resource://activity-stream/lib/Store.jsm:51 &lt; Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 &lt; uninit()@resource://activity-stream/lib/Store.jsm:153 &lt; uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 &lt; uninit()@resource://gre/modules/addons/XPIProvider.jsm -&gt; jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 &lt; shutdown()@resource://gre/modules/addons/XPIProvider.jsm -&gt; jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 &lt; callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 &lt; observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 &lt; observe()@resource:///modules/ContentCrashHandlers.jsm:162
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x150090,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
 
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x150084,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
 
-JavaScript error: resource:///modules/ContentCrashHandlers.jsm, line 333: TypeError: browser.ownerGlobal is null
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1520233242441	Marionette	INFO	Listening on port 64711
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x150090,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
 
@@ -431,17 +310,11 @@ JavaScript error: resource:///modules/ContentCrashHandlers.jsm, line 333: TypeEr
 
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-[GPU 2364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: chrome://marionette/content/server.js, line 341: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.close]
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
 </system-err>
-  </testcase>
-  <testcase classname="com.gurubank.project.TestNGLogin" name="Login" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.gurubank.project.TestNGLogin" name="afterTest" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.gurubank.project.TestNGLogin" name="beforeTest" time="0.001">
-    <skipped/>
   </testcase>
   <testcase classname="com.gurubank.project.TestNGLogin" name="Login" time="0">
     <skipped/>
@@ -449,7 +322,7 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
   <testcase classname="com.gurubank.project.TestNGLogin" name="afterTest" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.gurubank.project.TestNGLogin" name="beforeTest" time="0.001">
+  <testcase classname="com.gurubank.project.TestNGLogin" name="beforeTest" time="0">
     <skipped/>
   </testcase>
   <testcase classname="com.gurubank.project.TestNGLogin" name="Login" time="0">
@@ -461,10 +334,19 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
   <testcase classname="com.gurubank.project.TestNGLogin" name="beforeTest" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.gurubank.project.TestNGLogin" name="Login" time="0.001">
+  <testcase classname="com.gurubank.project.TestNGLogin" name="Login" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.gurubank.project.TestNGLogin" name="afterTest" time="0.001">
+  <testcase classname="com.gurubank.project.TestNGLogin" name="afterTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.gurubank.project.TestNGLogin" name="beforeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.gurubank.project.TestNGLogin" name="Login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.gurubank.project.TestNGLogin" name="afterTest" time="0">
     <skipped/>
   </testcase>
 </testsuite>

@@ -15,7 +15,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import java.io.*;
@@ -25,8 +27,17 @@ public class TestNGLogin {
 	
 	 @BeforeMethod
 	  public void beforeTest() {
+		 FirefoxOptions options = new FirefoxOptions();
+			options.setBinary("C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"); //Location where Firefox is installed
+	 
+			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+			capabilities.setCapability("moz:firefoxOptions", options);
+			capabilities.setCapability("-profile", "C:\\Users\\gowdara\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles");
+			//set more capabilities as per your requirements
+	 
+			driver = new FirefoxDriver(capabilities);
 		  System.setProperty("webdriver.gecko.driver", utill.firefoxpath);
-			driver = new FirefoxDriver();
+			//driver = new FirefoxDriver();
 			driver.get(utill.baseurl);
 			
 	  }

@@ -1,24 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: com.gurubank.project.TestNGLogin
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 73.902 sec <<< FAILURE!
-beforeTest(com.gurubank.project.TestNGLogin)  Time elapsed: 73.089 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 19.281 sec <<< FAILURE!
+beforeTest(com.gurubank.project.TestNGLogin)  Time elapsed: 19.015 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: connection reset
 Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
 System info: host: 'BAGOWDARA', ip: '10.50.52.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: driver.version: FirefoxDriver
 remote stacktrace: stack backtrace:
    0:           0x47e934 - <no info>
    1:           0x47f0a3 - <no info>
-   2:           0x442649 - <no info>
-   3:           0x449cc3 - <no info>
-   4:           0x42a890 - <no info>
-   5:           0x406f5e - <no info>
-   6:           0x40cfc9 - <no info>
-   7:           0x6bef19 - <no info>
-   8:           0x420756 - <no info>
-   9:           0x6b96e0 - <no info>
-  10:     0x7ffafbde8364 - BaseThreadInitThunk
+   2:           0x476b0a - <no info>
+   3:           0x477440 - <no info>
+   4:           0x4490d8 - <no info>
+   5:           0x42a890 - <no info>
+   6:           0x406f5e - <no info>
+   7:           0x40cfc9 - <no info>
+   8:           0x6bef19 - <no info>
+   9:           0x420756 - <no info>
+  10:           0x6b96e0 - <no info>
+  11:     0x7ffdfd868364 - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
